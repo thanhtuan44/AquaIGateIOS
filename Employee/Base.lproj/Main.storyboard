@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--LoginVC-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="LoginVC" id="BYZ-38-t0r" customClass="AQUA_LoginVC" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dEc-pU-afl"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="180" y="114.69265367316342"/>
+        </scene>
+        <!--Service-->
+        <scene sceneID="O7B-tc-Cbm">
+            <objects>
+                <viewController storyboardIdentifier="ServiceVC" id="0Hr-3C-mys" customClass="AQUA_Service" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EZj-aD-N8q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="rhs-62-692"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ILv-55-e3R"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jXK-LD-Mhr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1720.8" y="-278.41079460269867"/>
+        </scene>
+        <!--Date Off-->
+        <scene sceneID="D03-n8-azR">
+            <objects>
+                <viewController storyboardIdentifier="DateOffVC" id="bdm-Ey-Pni" customClass="AQUA_DateOff" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="XSI-QJ-ivn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="k83-RL-zfc"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="H12-rS-BQr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2407.1999999999998" y="-278.41079460269867"/>
+        </scene>
+        <!--Date Over Time-->
+        <scene sceneID="brY-Lg-9Xv">
+            <objects>
+                <viewController storyboardIdentifier="DateOverTimeVC" id="Nmd-68-rdN" customClass="AQUA_DateOverTime" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="WO4-Ll-XDn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="ofq-pe-JuO"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XQB-Gt-LRC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3063" y="-278"/>
+        </scene>
+        <!--Non Scan-->
+        <scene sceneID="Aq5-Pc-eTD">
+            <objects>
+                <viewController storyboardIdentifier="NonScanVC" id="2t2-qc-3pt" customClass="AQUA_NonScan" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kp0-YJ-nS8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="8R4-lY-BAy"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hev-J7-022" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3745" y="-281"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Jww-hm-cC0">
+            <objects>
+                <viewController id="tc0-je-OtH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bXI-Ii-5Kh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="h3r-Is-vFf"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hXk-EJ-iNR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4455" y="-278"/>
+        </scene>
+        <!--Product-->
+        <scene sceneID="IEO-Fg-XoG">
+            <objects>
+                <viewController storyboardIdentifier="ProductVC" id="S1A-Iu-9LW" customClass="AQUA_Product" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="h0c-u1-t1J">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="pqq-UL-PoP"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="taj-N6-ywi"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mdo-ZN-ciO" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1720.8" y="454.72263868065971"/>
+        </scene>
+        <!--Product Detail-->
+        <scene sceneID="WkL-y8-hA0">
+            <objects>
+                <viewController storyboardIdentifier="ProductDetailVC" id="rv7-bB-ZPp" customClass="AQUA_ProductDetail" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3xR-a9-7xV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="iFj-hp-iFe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NcP-Rz-7ZM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2400.8000000000002" y="451.12443778110946"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="wBR-MY-74O">
+            <objects>
+                <viewController storyboardIdentifier="ProfileVC" id="NQy-Yp-m07" customClass="AQUA_Profile" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cp4-iP-c2M">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="ELr-xJ-hUN"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="uXd-jF-6p1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="C5o-3i-Kyw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1382" y="1163"/>
+        </scene>
+        <!--Register Date Off-->
+        <scene sceneID="5An-AA-FnW">
+            <objects>
+                <viewController storyboardIdentifier="RegisterDateOffVC" id="t8c-iV-N7X" customClass="AQUA_RegisterDateOff" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kwN-g7-vwV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="qyQ-aL-zii"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="b4A-V7-NN9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2029" y="1145"/>
+        </scene>
+        <!--Register Non Scan-->
+        <scene sceneID="qX9-A8-iF9">
+            <objects>
+                <viewController storyboardIdentifier="RegisterNonScanVC" id="PJO-UC-dBu" customClass="AQUA_RegisterNonScan" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="GO1-Es-xlt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="5GQ-26-550"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZVg-2S-7RW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2028" y="2505"/>
+        </scene>
+        <!--Register Over Time-->
+        <scene sceneID="q11-qd-3tb">
+            <objects>
+                <viewController storyboardIdentifier="RegisterOverTimeVC" id="6QG-ZN-nYh" customClass="AQUA_RegisterOverTime" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Cc-I0-hDv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="xL8-jk-lfo"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8RP-sQ-Riw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2028" y="1839"/>
+        </scene>
+        <!--Confirm Date Off-->
+        <scene sceneID="tvS-Km-vHg">
+            <objects>
+                <viewController storyboardIdentifier="ConfirmDateOffVC" id="tXE-AW-lrC" customClass="AQUA_ConfirmDateOff" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="uaR-da-mWl">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="asT-94-rgA"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="thY-Gf-ceP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2698" y="1145"/>
+        </scene>
+        <!--Confirm Date Off Detail-->
+        <scene sceneID="V4l-dH-s0U">
+            <objects>
+                <viewController storyboardIdentifier="ConfirmDateOffDetailVC" id="koG-g9-MCF" customClass="AQUA_ConfirmDateOffDetail" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ScV-Kd-uQj">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="fhK-km-7cL"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QPK-JM-sjd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3380" y="1145"/>
+        </scene>
+        <!--Confirm Overtime-->
+        <scene sceneID="qvW-CA-Etg">
+            <objects>
+                <viewController storyboardIdentifier="ConfirmOvertimeVC" id="Nxp-j8-ToL" customClass="AQUA_ConfirmOvertime" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3zq-g8-But">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="x2n-7g-Uxe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vED-1H-wig" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2697" y="1838"/>
+        </scene>
+        <!--Confirm Non Scan-->
+        <scene sceneID="W9w-yV-SJ6">
+            <objects>
+                <viewController storyboardIdentifier="ConfirmNonScanVC" id="TsL-S1-mYa" customClass="AQUA_ConfirmNonScan" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ve5-mv-0hT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="14h-eE-0E9"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4w6-eS-5Q6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3346" y="1838"/>
+        </scene>
+        <!--Home Page-->
+        <scene sceneID="fYp-jS-O6N">
+            <objects>
+                <viewController storyboardIdentifier="HomePageVC" id="QBQ-3S-umZ" customClass="AQUA_HomePage" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="d0B-sP-GbW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="qtI-gm-VA1"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8pC-IA-IHK"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kRc-Tc-wiw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1381.5999999999999" y="-967.4662668665668"/>
+        </scene>
+        <!--Work Date-->
+        <scene sceneID="4mw-FA-3su">
+            <objects>
+                <viewController storyboardIdentifier="WorkDateVC" id="aOH-jf-j7z" customClass="AQUA_WorkDate" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="K1u-pg-qbh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="2lo-o2-uLq"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ljd-Eb-KMi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2068" y="-971"/>
+        </scene>
+        <!--Work Date Detail-->
+        <scene sceneID="fZD-t6-xw4">
+            <objects>
+                <viewController storyboardIdentifier="WorkDateDetailVC" id="VEZ-Uk-MPP" customClass="AQUA_WorkDateDetail" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oeb-So-WaN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="cPG-yM-AeW"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ej6-Tz-Ujk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2748" y="-971"/>
+        </scene>
+        <!--Bonus-->
+        <scene sceneID="wB5-yv-HWa">
+            <objects>
+                <viewController storyboardIdentifier="BonusVC" id="61H-Mi-0IU" customClass="AQUA_Bonus" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="DlI-Zd-p2H">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="iSV-ik-bor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5UH-gR-DFl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3430" y="-971"/>
+        </scene>
+        <!--Product All-->
+        <scene sceneID="m0b-Zr-1Gc">
+            <objects>
+                <viewController storyboardIdentifier="ProductAllVC" id="X8i-wY-nDD" customClass="AQUA_ProductAll" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="cPH-8v-DpN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Trm-De-mx3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ghI-VM-OQd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4094" y="-971"/>
+        </scene>
+        <!--Product All List-->
+        <scene sceneID="QAP-la-twd">
+            <objects>
+                <viewController storyboardIdentifier="ProductAllListVC" id="lhe-kZ-KEB" customClass="AQUA_ProductAllList" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="1eZ-Gc-AQs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="46b-WA-Udm"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="J0v-cP-eDC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4718" y="-973"/>
+        </scene>
+        <!--Product All Detail-->
+        <scene sceneID="Bdx-i0-NKt">
+            <objects>
+                <viewController storyboardIdentifier="ProductAllDetailVC" id="pb7-q7-v9d" customClass="AQUA_ProductAllDetail" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="c5N-jv-Gr4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="189-CR-Zy0"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bfm-BZ-dYo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5372" y="-974"/>
+        </scene>
+        <!--Annualleave-->
+        <scene sceneID="joO-yu-f0e">
+            <objects>
+                <viewController storyboardIdentifier="AnnualleaveVC" id="jBQ-m9-Hxf" customClass="AQUA_Annualleave" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZjI-cP-A1y">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="6MS-On-rlZ"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y6y-cR-xEB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6028" y="-974"/>
+        </scene>
+        <!--Missing Non Scan-->
+        <scene sceneID="uKa-7u-XLm">
+            <objects>
+                <viewController storyboardIdentifier="MissingNonScanVC" id="enA-U2-mfg" customClass="AQUA_MissingNonScan" customModule="Employee" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="AZu-W2-KEZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="aYE-XL-tK2"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IZa-3O-3pe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="6735" y="-974"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="UnA-kx-f1m">
+            <objects>
+                <navigationController storyboardIdentifier="HomePageNAV" automaticallyAdjustsScrollViewInsets="NO" id="ftW-3T-jgG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item 1" id="piv-pH-VWL"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Ja7-Aj-CP4">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="QBQ-3S-umZ" kind="relationship" relationship="rootViewController" id="f6D-Un-jTB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cFY-yg-2de" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="561" y="-966"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="wK7-V8-itY">
+            <objects>
+                <navigationController storyboardIdentifier="ServiceNAV" automaticallyAdjustsScrollViewInsets="NO" id="e3t-0k-PDb" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item 2" id="jSh-HQ-9HO"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="qTX-O2-6rQ">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="0Hr-3C-mys" kind="relationship" relationship="rootViewController" id="11N-M0-4Qf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gmI-oH-1Tk" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="900" y="-278.41079460269867"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="MMG-dh-CIt">
+            <objects>
+                <navigationController storyboardIdentifier="ProductNAV" automaticallyAdjustsScrollViewInsets="NO" id="C7a-Az-aZq" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="G0o-6E-KnG"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="KJk-J1-XnM">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="S1A-Iu-9LW" kind="relationship" relationship="rootViewController" id="Q9M-bJ-MVJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UBr-si-Hd8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="900" y="454.72263868065971"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="8d0-F3-QQa">
+            <objects>
+                <navigationController storyboardIdentifier="ProfileNAV" automaticallyAdjustsScrollViewInsets="NO" id="D6u-Wc-NdR" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="blq-jN-gf8"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="oZA-oK-Ya1">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="NQy-Yp-m07" kind="relationship" relationship="rootViewController" id="83R-mU-OKJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KgR-0v-4Lr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="561" y="1163"/>
+        </scene>
+    </scenes>
+</document>
